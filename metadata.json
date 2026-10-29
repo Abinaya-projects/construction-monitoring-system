@@ -1,0 +1,6 @@
+{
+  "name": "BuildSight AI — Construction Progress Intelligence System",
+  "description": "Academic system for monitoring building construction progress using computer vision, multi-stage activity classification, historical image comparison, and civil engineering verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
