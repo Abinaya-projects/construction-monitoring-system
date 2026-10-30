@@ -46,6 +46,7 @@ export default function App() {
       setObservations(obsData || []);
       setAlerts(alertData || []);
       setReports(repData || []);
+      setApiError(null);
     } catch (err: any) {
       console.error('Failed to load database records:', err);
       setApiError(err.message || 'Unable to connect to backend service.');
